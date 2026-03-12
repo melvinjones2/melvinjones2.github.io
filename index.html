@@ -1,7 +1,24 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.7"
+  overlay_image: /assets/images/istockphoto.jpg
+  actions:
+    - label: "View My Projects"
+      url: "/projects/"
+
+excerpt: "Hi, I'm Mel. I am a Computer Science graduate with a passion for software development, algorithm design, and web technologies. I enjoy creating efficient and scalable solutions to complex problems. Welcome to my portfolio where you can explore my projects and skills."
+
+feature_row:
+  - title: "💻 Software Development"
+    excerpt: "Building scalable and efficient applications using modern frameworks."
+  - title: "🤖 Algorithm Design"
+    excerpt: "Creating optimized solutions for complex computational problems."
+  - title: "🌐 Web Technologies"
+    excerpt: "Developing responsive and accessible web applications."
+    
 ---
+
+{% include feature_row %}

@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
+
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
+#   twitter_username: username
 github_username: melvinjones2
 minimal_mistakes_skin: dark
 search: true
@@ -60,32 +60,45 @@ plugins:
 author:
   name   : "Melvin D. Jones"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi, I'm Melvin. I am a software developer and technology enthusiast. Hit me up bruv."
+  bio    : "Hi, I'm Mel. 
+              I am a student at UCO and I'm about to graduate with a B.S. in Computer Science. I have a passion for software development and technology and if you have any questions, feel free to ask! My socials are linked below."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/melvinjones2?tab=overview&from=2026-03-01&to=2026-03-11"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:melvindjones400@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/melvin-jones-24b011247/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/melvinjones2?tab=overview&from=2026-03-01&to=2026-03-11"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:melvindjones400@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/melvin-jones-24b011247/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
 
 defaults:
   # _posts
@@ -104,7 +117,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: home
       author_profile: true
 
 category_archive:
