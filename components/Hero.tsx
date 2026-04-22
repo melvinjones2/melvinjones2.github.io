@@ -2,6 +2,9 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
+import Image from "next/image";
+import Mel from "../public/63fe07af6d1eb_animals-with-butterflies.jpg";
+
 
 type Props = {};
 
@@ -19,10 +22,12 @@ export default function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <img
+      <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="public/dog-butterfly-4102437754.gif"
+        src={Mel}
         alt="Mel"
+        width={128}
+        height={128}
       />
       <div className="z-10">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
