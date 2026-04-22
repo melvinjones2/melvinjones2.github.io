@@ -12,8 +12,9 @@ export default function Hero({}: Props) {
   const [text] = useTypewriter({
     words: [
       "Hi, I'm Mel",
-      "Welcome to My Portfolio",
-      "add another thing here that's witty and fun cause. Plus, I need to show off the typewriter effect a little more.",
+      "Welcome to My Portfolio!",
+      "My hobbies include coding, working out, and fearing the certainty of death.",
+      ":)",
     ],
     loop: true,
     delaySpeed: 1500,
