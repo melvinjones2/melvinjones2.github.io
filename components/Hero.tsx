@@ -13,7 +13,7 @@ export default function Hero({}: Props) {
     words: [
       "Hi, I'm Mel",
       "Welcome to My Portfolio!",
-      "My hobbies include coding, working out, and fearing the certainty of death.",
+      "I hope you enjoy your visit!",
       ":)",
     ],
     loop: true,
