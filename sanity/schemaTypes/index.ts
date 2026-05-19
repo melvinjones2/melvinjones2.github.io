@@ -1,6 +1,14 @@
-import blockContent from './blockContent'
-import category from './category'
-import post from './post'
-import author from './author'
+import { s } from 'framer-motion/client'
+import pageInfo from './pageInfo'
+import experience from './experience'
+import skill from './skill'
+import project from './project'
+import social from './social'
 
-export const schemaTypes = [post, author, category, blockContent]
+export const schemaTypes = [
+    pageInfo,
+    skill,
+    experience,
+    project,
+    social,
+]
